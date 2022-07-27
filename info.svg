@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 900 470" height="470" width="900">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @keyframes gradientBackground {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+
+                    50% {
+                        background-position: 100% 50%;
+                    }
+
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+
+                @keyframes fadeIn {
+                    0% {
+                        opacity: 0;
+                    }
+
+                    33% {
+                        opacity: 0;
+                    }
+
+                    100% {
+                        opacity: 1;
+                    }
+                }
+
+                * {
+                    color: #ccc;
+                    font-family:
+                        'Courier New',
+                        Courier,
+                        monospace,
+                        system-ui,
+                        -apple-system,
+                        'Segoe UI',
+                        Roboto,
+                        Helvetica,
+                        Arial,
+                        sans-serif,
+                        'Apple Color Emoji';
+                }
+
+                .tall {
+
+                    height: 200px;
+                    width: 100%;
+                }
+
+                .short {
+
+                    height: 140px;
+                    padding-left: 32px;
+                    padding-right: 32px;
+                }
+
+                .container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+                    background: linear-gradient(-45deg, #000, #5F19E7, #000);
+                    background-size: 600% 400%;
+                    animation: gradientBackground 10s ease infinite;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+
+                span {
+
+                    font-size: 30px;
+                    animation: 5s ease 0s normal forwards 1;
+                }
+
+                .shadow {
+                    text-shadow: 0 0 5px #000000;
+                }
+
+                .small {
+                    font-size: 25px;
+                }
+
+                .big {
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 35px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                }
+
+                .icon-row {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    gap: 16px;
+                    flex-wrap: wrap;
+                }
+
+                .icon-container {
+                    display: flex;
+                    flex-direction: column;
+                    color: white;
+                    text-decoration: none;
+                    width: 120px;
+                    align-items: center;
+                    overflow: hidden;
+                    flex-shrink: 0;
+                }
+
+                .icon {
+                    height: 80px;
+                    width: 80px;
+                    object-fit: contain;
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                }
+
+                .icon-text {
+                    font-size: 25px;
+                    letter-spacing: -1px;
+                    padding-bottom: 8px;
+                }
+
+                .greeting-container {
+                    margin-bottom: 30px;
+                }
+
+                .more-info-container {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                }
+
+                .icon-link {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .main-container {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+                }
+            </style>
+
+            <div class="main-container">
+                <div class="more-info-container">
+                    <span>ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏsᴇʟꜰ</span>
+                    <span>👾 tech:</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ svelte / react</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ solidity / web3</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ nodejs / typescript</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ figma / adobe xd</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ linux / docker</span>
+                    <span>🌈 ‌ I love doing animations</span>
+                    <span>📫 ‌ my telegram: <a href="https://t.me/clonomaer">@clonomaer</a></span>
+                    <span>🐦 ‌ my twitter: <a href="https://twitter.com/clonomaer">@clonomaer</a></span>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>

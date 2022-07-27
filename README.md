@@ -1,1 +1,3 @@
-<object data="./index.svg" />
+<img src="./header.svg" />
+
+<img src="./info.svg" />
