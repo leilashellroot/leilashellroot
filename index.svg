@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1000 1000">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @keyframes gradientBackground {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+
+                    50% {
+                        background-position: 100% 50%;
+                    }
+
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+
+                @keyframes fadeIn {
+                    0% {
+                        opacity: 0;
+                    }
+
+                    33% {
+                        opacity: 0;
+                    }
+
+                    100% {
+                        opacity: 1;
+                    }
+                }
+
+                * {
+                    font-family:
+                        'Courier New',
+                        Courier,
+                        monospace,
+                        system-ui,
+                        -apple-system,
+                        'Segoe UI',
+                        Roboto,
+                        Helvetica,
+                        Arial,
+                        sans-serif,
+                        'Apple Color Emoji';
+                }
+
+                .tall {
+
+                    height: 200px;
+                    width: 100%;
+                }
+
+                .short {
+
+                    height: 140px;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                }
+
+                .container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+                    background: linear-gradient(-45deg, #000, #5F19E7, #000);
+                    background-size: 600% 400%;
+                    animation: gradientBackground 10s ease infinite;
+                    border-radius: 10px;
+                    color: white;
+                    text-align: center;
+                }
+
+                span {
+
+                    font-size: 30px;
+                    animation: 5s ease 0s normal forwards 1;
+                }
+
+                .shadow {
+                    text-shadow: 0 0 5px #000000;
+                }
+
+                .small {
+                    font-size: 25px;
+                }
+
+                .big {
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 35px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                }
+
+                .icon-row {
+                    display: flex;
+                    padding-left: 200px;
+                    padding-right: 200px;
+                    align-items: center;
+                    margin-top: 50px;
+                    height: 100px;
+                }
+
+                .icon-container {
+                    display: flex;
+                    flex-direction: column;
+                    color: white;
+                    text-decoration: none;
+                    width: 120px;
+                    align-items: center;
+                    overflow: hidden;
+                    flex-shrink: 0;
+                }
+
+                .icon {
+                    height: 80px;
+                    width: 80px;
+                    object-fit: contain;
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                }
+
+                .icon-text {
+                    font-size: 25px;
+                    letter-spacing: -1px;
+                    /* padding-top: 1rem; */
+                    padding-bottom: 0.5rem;
+                }
+
+                .greeting-container {
+                    margin-bottom: 30px;
+                }
+            </style>
+
+            <div style="display: flex; flex-direction: column; gap: 2rem;">
+                <div style="display: flex; flex-direction: column; gap: 2rem;">
+                    <div class="container tall">
+                        <div class='greeting-container'>
+                            <span>✨✨</span>
+                            <span class="shadow small">𝚑𝚎𝚢 𝚝𝚑𝚎𝚛𝚎, 𝚕𝚎𝚒 𝚑𝚎𝚛𝚎</span>
+                            <span>‌✨✨</span>
+                        </div>
+
+                        <span class="shadow">
+                            <span class="small">
+                                CURRENTLY WORKING ON
+                            </span>
+                            <span class="big">
+                                EngaLand
+                            </span>
+                        </span>
+
+                    </div>
+                    <div
+                        style="display: flex; width: 100%; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+                        <a href="https://enga.land" style="margin-left: auto; margin-right: auto;">
+                            <div class="container short">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                                    <g id="EngalandLogo-01" transform="translate(-276.5 -230.78)">
+                                        <g id="Group_214" data-name="Group 214" transform="translate(276.5 230.78)">
+                                            <g id="Group_212" data-name="Group 212" transform="translate(1.799 1.788)">
+                                                <path id="Path_2668" data-name="Path 2668"
+                                                    d="M294.45,245.492H307.4v6.475H294.45V255.2H307.4v6.475H287.975v-9.712H281.5v-6.475h6.475V235.78H307.4a6.472,6.472,0,0,1-6.475,6.475H294.45Z"
+                                                    transform="translate(-281.5 -235.769)" fill="#fff" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+
+
+
+                                <span class='icon-text'>website</span>
+
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/engaverse" style="margin-left: auto; margin-right: auto;">
+                            <div class="container short">
+                                <svg class='icon' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 410.155 410.155" style="enable-background:new 0 0 410.155 410.155;"
+                                    xml:space="preserve">
+                                    <path style="fill:#76A9EA;" d="M403.632,74.18c-9.113,4.041-18.573,7.229-28.28,9.537c10.696-10.164,18.738-22.877,23.275-37.067
+	l0,0c1.295-4.051-3.105-7.554-6.763-5.385l0,0c-13.504,8.01-28.05,14.019-43.235,17.862c-0.881,0.223-1.79,0.336-2.702,0.336
+	c-2.766,0-5.455-1.027-7.57-2.891c-16.156-14.239-36.935-22.081-58.508-22.081c-9.335,0-18.76,1.455-28.014,4.325
+	c-28.672,8.893-50.795,32.544-57.736,61.724c-2.604,10.945-3.309,21.9-2.097,32.56c0.139,1.225-0.44,2.08-0.797,2.481
+	c-0.627,0.703-1.516,1.106-2.439,1.106c-0.103,0-0.209-0.005-0.314-0.015c-62.762-5.831-119.358-36.068-159.363-85.14l0,0
+	c-2.04-2.503-5.952-2.196-7.578,0.593l0,0C13.677,65.565,9.537,80.937,9.537,96.579c0,23.972,9.631,46.563,26.36,63.032
+	c-7.035-1.668-13.844-4.295-20.169-7.808l0,0c-3.06-1.7-6.825,0.485-6.868,3.985l0,0c-0.438,35.612,20.412,67.3,51.646,81.569
+	c-0.629,0.015-1.258,0.022-1.888,0.022c-4.951,0-9.964-0.478-14.898-1.421l0,0c-3.446-0.658-6.341,2.611-5.271,5.952l0,0
+	c10.138,31.651,37.39,54.981,70.002,60.278c-27.066,18.169-58.585,27.753-91.39,27.753l-10.227-0.006
+	c-3.151,0-5.816,2.054-6.619,5.106c-0.791,3.006,0.666,6.177,3.353,7.74c36.966,21.513,79.131,32.883,121.955,32.883
+	c37.485,0,72.549-7.439,104.219-22.109c29.033-13.449,54.689-32.674,76.255-57.141c20.09-22.792,35.8-49.103,46.692-78.201
+	c10.383-27.737,15.871-57.333,15.871-85.589v-1.346c-0.001-4.537,2.051-8.806,5.631-11.712c13.585-11.03,25.415-24.014,35.16-38.591
+	l0,0C411.924,77.126,407.866,72.302,403.632,74.18L403.632,74.18z" />
+                                </svg>
+
+                                <span class='icon-text'>twitter</span>
+                            </div>
+
+                        </a>
+                        <a href="https://t.me/engaland_en" style="margin-left: auto; margin-right: auto;">
+                            <div class="container short">
+                                <svg class='icon' enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="512"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" fill="#039be5" r="12" />
+                                    <path
+                                        d="m5.491 11.74 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"
+                                        fill="#fff" />
+                                </svg>
+                                <span class='icon-text'>telegram</span>
+                            </div>
+                        </a>
+                        <a href="https://docs.enga.land" style="margin-left: auto; margin-right: auto;">
+                            <div class="container short">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                                    <g id="EngalandLogo-01" transform="translate(-276.5 -230.78)">
+                                        <g id="Group_214" data-name="Group 214" transform="translate(276.5 230.78)">
+                                            <g id="Group_212" data-name="Group 212" transform="translate(1.799 1.788)">
+                                                <path id="Path_2668" data-name="Path 2668"
+                                                    d="M294.45,245.492H307.4v6.475H294.45V255.2H307.4v6.475H287.975v-9.712H281.5v-6.475h6.475V235.78H307.4a6.472,6.472,0,0,1-6.475,6.475H294.45Z"
+                                                    transform="translate(-281.5 -235.769)" fill="#00DA86" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+
+                                <span class='icon-text'>docs</span>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    style="display: flex; flex-direction: column; gap: 0.15rem; font-family: 'Courier New', Courier, monospace, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'">
+                    <span>ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏsᴇʟꜰ</span>
+                    <span>👾 tech:</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ svelte / react</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ solidity / web3</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ nodejs / typescript</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ figma / adobe xd</span>
+                    <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ linux / docker</span>
+                    <span>🌈 ‌ I love doing animations</span>
+                    <span>📫 ‌ my telegram: <a href="https://t.me/clonomaer">@clonomaer</a></span>
+                    <span>🐦 ‌ my twitter: <a href="https://twitter.com/clonomaer">@clonomaer</a></span>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
