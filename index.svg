@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1000 1000">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 900 880">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
@@ -31,6 +31,7 @@
                 }
 
                 * {
+                    color: #ccc;
                     font-family:
                         'Courier New',
                         Courier,
@@ -54,8 +55,8 @@
                 .short {
 
                     height: 140px;
-                    padding-left: 2rem;
-                    padding-right: 2rem;
+                    padding-left: 32px;
+                    padding-right: 32px;
                 }
 
                 .container {
@@ -68,7 +69,6 @@
                     background-size: 600% 400%;
                     animation: gradientBackground 10s ease infinite;
                     border-radius: 10px;
-                    color: white;
                     text-align: center;
                 }
 
@@ -95,11 +95,10 @@
 
                 .icon-row {
                     display: flex;
-                    padding-left: 200px;
-                    padding-right: 200px;
-                    align-items: center;
-                    margin-top: 50px;
-                    height: 100px;
+                    width: 100%;
+                    justify-content: space-between;
+                    gap: 16px;
+                    flex-wrap: wrap;
                 }
 
                 .icon-container {
@@ -124,17 +123,33 @@
                 .icon-text {
                     font-size: 25px;
                     letter-spacing: -1px;
-                    /* padding-top: 1rem; */
-                    padding-bottom: 0.5rem;
+                    padding-bottom: 8px;
                 }
 
                 .greeting-container {
                     margin-bottom: 30px;
                 }
+
+                .more-info-container {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                }
+
+                .icon-link {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .main-container {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+                }
             </style>
 
-            <div style="display: flex; flex-direction: column; gap: 2rem;">
-                <div style="display: flex; flex-direction: column; gap: 2rem;">
+            <div class="main-container">
+                <div class="main-container">
                     <div class="container tall">
                         <div class='greeting-container'>
                             <span>✨✨</span>
@@ -152,9 +167,8 @@
                         </span>
 
                     </div>
-                    <div
-                        style="display: flex; width: 100%; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
-                        <a href="https://enga.land" style="margin-left: auto; margin-right: auto;">
+                    <div class="icon-row">
+                        <a href="https://enga.land" class="icon-link">
                             <div class="container short">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
                                     <g id="EngalandLogo-01" transform="translate(-276.5 -230.78)">
@@ -174,7 +188,7 @@
 
                             </div>
                         </a>
-                        <a href="https://twitter.com/engaverse" style="margin-left: auto; margin-right: auto;">
+                        <a href="https://twitter.com/engaverse" class="icon-link">
                             <div class="container short">
                                 <svg class='icon' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -199,7 +213,7 @@
                             </div>
 
                         </a>
-                        <a href="https://t.me/engaland_en" style="margin-left: auto; margin-right: auto;">
+                        <a href="https://t.me/engaland_en" class="icon-link">
                             <div class="container short">
                                 <svg class='icon' enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="512"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -211,7 +225,7 @@
                                 <span class='icon-text'>telegram</span>
                             </div>
                         </a>
-                        <a href="https://docs.enga.land" style="margin-left: auto; margin-right: auto;">
+                        <a href="https://docs.enga.land" class="icon-link">
                             <div class="container short">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
                                     <g id="EngalandLogo-01" transform="translate(-276.5 -230.78)">
@@ -231,8 +245,7 @@
                         </a>
                     </div>
                 </div>
-                <div
-                    style="display: flex; flex-direction: column; gap: 0.15rem; font-family: 'Courier New', Courier, monospace, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'">
+                <div class="more-info-container">
                     <span>ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏsᴇʟꜰ</span>
                     <span>👾 tech:</span>
                     <span>‌ ‌ ‌ ‌ ‌ ‌ ☕️ ‌ svelte / react</span>
