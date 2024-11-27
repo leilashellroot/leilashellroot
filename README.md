@@ -1,4 +1,6 @@
-<img src="./header.svg" />
+<a href="https://github.com/kavenegar">
+  <img src="./header.svg" />
+</a>
 <!-- <img src="./info.svg" /> -->
 
 ### > [𝚖𝚢 𝚌𝚟](https://github.com/clonomaer/public-cv-v2/releases) <  
