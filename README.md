@@ -6,4 +6,6 @@
 
 Frontend Engineer with a backend development background, applying systems thinking to deliver maintainable web applications that consider the entire application lifecycle. Passionate about Web3 technologies, clean architecture, and building developer-friendly solutions that scale. Currently focused on bringing structure to frontend development through precise TypeScript usage and thoughtful abstractions.
 
-[![linkedin](https://github.com/user-attachments/assets/81cbaa8b-5080-41a5-82ac-38579ba3bec0)](https://linkedin.com/in/ilkhani) ‌ ‌ ‌ [![portfolio](https://github.com/user-attachments/assets/ac70ede4-5ba9-4ecb-bfcc-2325ebb3d1e5)](https://leila.sh) ‌ ‌ ‌ [![telegram](https://github.com/user-attachments/assets/b260c8f2-dd1e-4b1d-83a4-11699f7956c3)](https://t.me/clei420) ‌ ‌ ‌ [![twitter](https://github.com/user-attachments/assets/be5f4a5c-7a44-4e5e-8e57-4fec4e2667dc)](https://x.com/ileikhani)
+[![linkedin](https://github.com/user-attachments/assets/81cbaa8b-5080-41a5-82ac-38579ba3bec0)](https://linkedin.com/in/ilkhani) ‌ ‌ ‌ [![portfolio](https://github.com/user-attachments/assets/ac70ede4-5ba9-4ecb-bfcc-2325ebb3d1e5)](https://leila.sh)  
+[![twitter](https://github.com/user-attachments/assets/be5f4a5c-7a44-4e5e-8e57-4fec4e2667dc)](https://x.com/ileikhani) ‌ ‌ ‌ [![telegram](https://github.com/user-attachments/assets/0142c4f4-df87-4006-9edc-0de8bd69a3e9)](https://t.me/leilashellroot)
+
