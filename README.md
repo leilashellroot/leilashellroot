@@ -6,6 +6,6 @@
 
 Frontend Engineer with a backend development background, applying systems thinking to deliver maintainable web applications that consider the entire application lifecycle. Passionate about Web3 technologies, clean architecture, and building developer-friendly solutions that scale. Currently focused on bringing structure to frontend development through precise TypeScript usage and thoughtful abstractions.
 
-[![linkedin](https://github.com/user-attachments/assets/81cbaa8b-5080-41a5-82ac-38579ba3bec0)](https://in.leila.sh) ‌ ‌ ‌ [![portfolio](https://github.com/user-attachments/assets/ac70ede4-5ba9-4ecb-bfcc-2325ebb3d1e5)](https://leila.sh)  
-[![twitter](https://github.com/user-attachments/assets/b7cd2020-696c-4710-a822-99b993340d4d)](https://x.leila.sh) ‌ ‌ ‌ [![telegram](https://github.com/user-attachments/assets/0142c4f4-df87-4006-9edc-0de8bd69a3e9)](https://tg.leila.sh)
+[![linkedin](https://leila.sh/static_assets/gh-tag-linkedin.svg)](https://in.leila.sh) ‌ ‌ ‌ [![portfolio](https://leila.sh/static_assets/gh-tag-homepage.svg)](https://leila.sh)  
+[![twitter](https://leila.sh/static_assets/gh-tag-twitter.svg)](https://x.leila.sh) ‌ ‌ ‌ [![telegram](https://leila.sh/static_assets/gh-tag-telegram.svg)](https://tg.leila.sh)
 
