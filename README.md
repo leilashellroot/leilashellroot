@@ -9,3 +9,6 @@ Frontend Engineer with a backend development background, applying systems thinki
 [![linkedin](https://leila.sh/static_assets/gh-tag-linkedin.svg)](https://in.leila.sh) ‌ ‌ ‌ [![portfolio](https://leila.sh/static_assets/gh-tag-home.svg)](https://leila.sh)  
 [![twitter](https://leila.sh/static_assets/gh-tag-twitter.svg)](https://x.leila.sh) ‌ ‌ ‌ [![telegram](https://leila.sh/static_assets/gh-tag-telegram.svg)](https://tg.leila.sh)
 
+Take a look at my gists:
+
+[![Github Gists](https://leila.sh/static_assets/gh-tag-gists.svg)](https://gist.github.com/leilashellroot)
